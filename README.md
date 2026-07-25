@@ -205,7 +205,7 @@ Esquema relacional PostgreSQL de 14 entidades, autenticación con Supabase Auth 
 `Estado: ✅ Completado`
 
 <a href="https://github.com/DaniDJ-Hub/paperflow"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="#">
+<a href="https://github.com/DaniDJ-Hub/Inventory-System_MJ.git">
 
 </td>
 <td width="50%" valign="top">
@@ -223,7 +223,7 @@ Stack MERN con arquitectura MVC, autenticación JWT + bcrypt, autorización a ni
 `Estado: ✅ Completado`
 
 <a href="https://github.com/DaniDJ-Hub/vetcare-manager"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Demo-2563EB?style=flat-square&logo=vercel&logoColor=white"/></a>
+<a href="https://github.com/DaniDJ-Hub/VetCare_Manager_Public.git">
 
 </td>
 </tr>
@@ -243,7 +243,7 @@ Arquitectura orientada a configuración, reutilizable como plantilla para distin
 `Estado: ✅ Completado`
 
 <a href="https://github.com/DaniDJ-Hub/nailstudio-glam"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Demo-2563EB?style=flat-square&logo=vercel&logoColor=white"/></a>
+<a href="https://github.com/DaniDJ-Hub/Nail_Services_Page.git">
 
 </td>
 <td width="50%" valign="top">
@@ -261,7 +261,7 @@ Renderizado server-side con Pug, catálogo dinámico vía Sequelize/MySQL y estr
 `Estado: ✅ Completado`
 
 <a href="https://github.com/DaniDJ-Hub/viajaya"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Demo-2563EB?style=flat-square&logo=vercel&logoColor=white"/></a>
+<a href="https://github.com/DaniDJ-Hub/Agencia-Viajes-Public.git">
 
 </td>
 </tr>
