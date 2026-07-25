@@ -1,17 +1,4 @@
 <h1 align="center">¡Hola! Soy Daniel Moreno López 👋</h1>
-<h3 align="center">Full-Stack Developer (Frontend-focused) · React · Next.js · TypeScript</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Desarrollador+Full-Stack+Junior;Especializado+en+React+%2B+Next.js;Autor+de+5+aplicaciones+web+completas" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/daniel-de-jesús-moreno-lópez-889a15303"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://my-portafolio-fawn.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
-  <a href="mailto:danielmoreno123g@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
-
----
 
 <div align="center">
 
