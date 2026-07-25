@@ -142,17 +142,17 @@ daniel.dev:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=TU-USUARIO&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&icon_color=60A5FA" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=TU-USUARIO&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=2563EB" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=DaniDJ-Hub&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&icon_color=60A5FA" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=DaniDJ-Hub&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=2563EB" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU-USUARIO&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=TU-USUARIO&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=60A5FA&line=2563EB&point=ffffff" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDJ-Hub&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=DaniDJ-Hub&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=60A5FA&line=2563EB&point=ffffff" />
 
 </div>
 
 <!-- Contribution Snake — requiere GitHub Action, ver instrucciones al final -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TU-USUARIO/TU-USUARIO/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
@@ -162,7 +162,7 @@ daniel.dev:
 ## 🏆 Logros y Certificaciones
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=TU-USUARIO&theme=algolia&no-frame=true&row=1&column=7&margin-w=8" />
+<img src="https://github-profile-trophy.vercel.app/?username=DaniDJ-Hub&theme=algolia&no-frame=true&row=1&column=7&margin-w=8" />
 </div>
 
 - 🏗️ Arquitectura reutilizable orientada a configuración en **NailStudio Glam**, adaptable a distintos negocios editando solo la capa de datos.
