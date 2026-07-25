@@ -205,7 +205,7 @@ Esquema relacional PostgreSQL de 14 entidades, autenticación con Supabase Auth 
 `Estado: ✅ Completado`
 
 <a href="https://github.com/DaniDJ-Hub/paperflow"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Demo-2563EB?style=flat-square&logo=vercel&logoColor=white"/></a>
+<a href="#">
 
 </td>
 <td width="50%" valign="top">
