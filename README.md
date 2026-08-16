@@ -6,7 +6,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:2563EB&height=220&section=header&text=Daniel%20Moreno%20López&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20·%20React%20·%20Next.js%20·%20TypeScript&descAlignY=58&descSize=18" />
 
 <!-- Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=60A5FA&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+(Frontend-focused);React+%2B+Next.js+%2B+TypeScript;Autor+de+5+aplicaciones+web+completas;Arquitecturas+escalables+y+seguras" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=60A5FA&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;React+%2B+Next.js+%2B+TypeScript;Autor+de+8+aplicaciones+web+completas;Arquitecturas+escalables+y+seguras" alt="Typing SVG" />
 
 <br/>
 
@@ -33,13 +33,13 @@
 
 Desarrollador **Full-Stack Junior** especializado en **React** y **Next.js**, con base sólida en **TypeScript**, **Tailwind CSS** y **Supabase/PostgreSQL**.
 
-Autor de **5 aplicaciones web completas** desarrolladas de forma independiente, incluyendo un sistema de inventario y punto de venta con esquema relacional de **14 entidades**, autenticación segura y control de acceso basado en roles.
+Autor de **8 aplicaciones web completas** desarrolladas de forma independiente, incluyendo un sistema de inventario y punto de venta con esquema relacional de **14 entidades**, un sistema de boletaje con generación de códigos QR y pipeline de CI/CD completo, y una landing page premium con panel de administración e internacionalización en Django.
 
 - 🎓 Ingeniería en Sistemas Computacionales — TecNM, Campus Comitán (2022–2027)
 - 🧠 Foco en arquitecturas escalables, seguras y mantenibles
 - 🌱 Ampliando conocimientos en backend (Java/Spring Boot, Node/Express)
 - 📍 Comitán de Domínguez, Chiapas, México
-- 🗣️ Español (nativo) · Inglés (B1)
+- 🗣️ Español (nativo) · Inglés (B2)
 
 </td>
 <td width="40%" valign="top" align="center">
@@ -47,9 +47,8 @@ Autor de **5 aplicaciones web completas** desarrolladas de forma independiente, 
 ```yaml
 daniel.dev:
   role: "Full-Stack Developer"
-  focus: "Frontend-first"
-  stack: [React, Next.js, TypeScript]
-  status: "Aprendiendo backend avanzado"
+  stack: [React, Next.js, TypeScript, Spring Boot]
+  status: "Ampliando backend avanzado"
   soft_skills:
     - Trabajo en equipo
     - Resolución de problemas
@@ -89,6 +88,7 @@ daniel.dev:
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
 </p>
 
 **Bases de datos**
@@ -96,6 +96,7 @@ daniel.dev:
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
 </p>
 
@@ -114,6 +115,8 @@ daniel.dev:
 <p>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
 </p>
 
@@ -165,7 +168,8 @@ daniel.dev:
 <img src="https://github-profile-trophy.vercel.app/?username=DaniDJ-Hub&theme=algolia&no-frame=true&row=1&column=7&margin-w=8" />
 </div>
 
-- 🏗️ Arquitectura reutilizable orientada a configuración en **NailStudio Glam**, adaptable a distintos negocios editando solo la capa de datos.
+- 🎟️ Pipeline de CI/CD completo (typecheck, lint, pruebas, build y publicación de imagen Docker) en **Sistema de Boletaje Zoológico La Trinitaria**.
+- 🌐 Panel de administración con internacionalización completa español/inglés en **FORGE ATHLETICS**, sin tocar código.
 - 🧩 Aplicación consistente del patrón MVC en **ViajaYa**, con modelado relacional en MySQL y contenido 100% dinámico.
 - 🥇 Participación en Torneo Regional de Programación.
 
@@ -205,14 +209,50 @@ Esquema relacional PostgreSQL de 14 entidades, autenticación con Supabase Auth 
 `Estado: ✅ Completado`
 
 <a href="https://github.com/DaniDJ-Hub/paperflow"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="https://github.com/DaniDJ-Hub/Inventory-System_MJ.git">
+
+</td>
+<td width="50%" valign="top">
+<h3>🦁 Zoológico La Trinitaria</h3>
+<i>Sistema de Boletaje con Códigos QR</i><br/><br/>
+
+Venta y validación de boletos con QR, lector por cámara, persistencia en SQLite, autenticación por cookies HMAC, y pipeline de CI/CD con GitHub Actions + Docker.
+
+<p>
+<img src="https://img.shields.io/badge/Next.js_15-black?style=flat-square&logo=next.js"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript"/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker"/>
+</p>
+
+`Estado: ✅ Completado`
+
+<a href="https://github.com/DaniDJ-Hub/Zool-gico_Project"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🏋️ FORGE ATHLETICS</h3>
+<i>Landing Page Premium con Panel de Administración</i><br/><br/>
+
+Modelo de datos relacional en Django ORM con 9 entidades, panel admin personalizado con django-unfold, internacionalización español/inglés y animaciones GSAP/AOS.
+
+<p>
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss"/>
+<img src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=flat-square&logo=alpinedotjs&logoColor=black"/>
+</p>
+
+`Estado: ✅ Completado`
+
+<a href="https://github.com/DaniDJ-Hub/forge-athletics"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
 
 </td>
 <td width="50%" valign="top">
 <h3>🐾 VetCare Manager</h3>
 <i>Plataforma de Gestión de Pacientes Veterinarios</i><br/><br/>
 
-Stack MERN con arquitectura MVC, autenticación JWT + bcrypt, autorización a nivel de recurso y recuperación de contraseña vía correo (Nodemailer).
+Stack MERN con arquitectura MVC, autenticación JWT + bcrypt y autorización a nivel de recurso que aísla los datos entre distintos veterinarios usuarios.
 
 <p>
 <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black"/>
@@ -223,29 +263,10 @@ Stack MERN con arquitectura MVC, autenticación JWT + bcrypt, autorización a ni
 `Estado: ✅ Completado`
 
 <a href="https://github.com/DaniDJ-Hub/vetcare-manager"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="https://github.com/DaniDJ-Hub/VetCare_Manager_Public.git">
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<h3>💅 NailStudio Glam</h3>
-<i>Landing Page de Conversión — WhatsApp Business</i><br/><br/>
-
-Arquitectura orientada a configuración, reutilizable como plantilla para distintos clientes, con SEO/Open Graph optimizado y diseño mobile-first.
-
-<p>
-<img src="https://img.shields.io/badge/Next.js_16-black?style=flat-square&logo=next.js"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript"/>
-<img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square"/>
-</p>
-
-`Estado: ✅ Completado`
-
-<a href="https://github.com/DaniDJ-Hub/nailstudio-glam"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="https://github.com/DaniDJ-Hub/Nail_Services_Page.git">
-
-</td>
 <td width="50%" valign="top">
 <h3>✈️ ViajaYa</h3>
 <i>Plataforma Web de Agencia de Viajes — MVC</i><br/><br/>
@@ -261,7 +282,9 @@ Renderizado server-side con Pug, catálogo dinámico vía Sequelize/MySQL y estr
 `Estado: ✅ Completado`
 
 <a href="https://github.com/DaniDJ-Hub/viajaya"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="https://github.com/DaniDJ-Hub/Agencia-Viajes-Public.git">
+
+</td>
+<td width="50%" valign="top">
 
 </td>
 </tr>
@@ -273,6 +296,23 @@ Renderizado server-side con Pug, catálogo dinámico vía Sequelize/MySQL y estr
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
 
+<!-- ════════════════════ FREELANCE ════════════════════ -->
+
+## 💼 Proyectos Freelance
+
+<div align="center">
+
+| Proyecto | Descripción | Stack |
+|---|---|---|
+| ⚽ **Fut 7 El Jaguar** | Gestión de liga deportiva: equipos, jugadores, jornadas y tabla de posiciones en tiempo real | `Next.js 15` `PostgreSQL` `Recharts` |
+| 🍕 **Sistema POS Pizzería** | Punto de venta con gestión de sucursales y sincronización de datos en tiempo real | `Next.js 15` `Firestore` `TypeScript` |
+| 💅 **NailStudio Glam** | Landing page comercial con arquitectura orientada a configuración e integración WhatsApp | `Next.js 16` `TypeScript` `Tailwind CSS` |
+| 📝 **App de Notas** | Aplicación CRUD full-stack de gestión de notas | `Spring Boot` `React` `H2` |
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
+
 <!-- ════════════════════ ROADMAP ════════════════════ -->
 
 ## 📊 Roadmap de Aprendizaje
@@ -280,17 +320,17 @@ Renderizado server-side con Pug, catálogo dinámico vía Sequelize/MySQL y estr
 ```
 Frontend Sólido      ████████████████████ 100%
 Next.js Avanzado     ███████████████░░░░░  75%
-Backend (Java/Spring)███████░░░░░░░░░░░░░  35%
+Backend (Java/Spring)███████████░░░░░░░░░  55%
 Node.js / Express    ██████████░░░░░░░░░░  50%
-DevOps / Cloud       ████░░░░░░░░░░░░░░░░  20%
+DevOps / Cloud       ██████░░░░░░░░░░░░░░  30%
 ```
 
 ## 🎯 Actualmente
 
 - 🔭 Desarrollando nuevos proyectos full-stack con foco en arquitectura escalable
-- 🌱 Aprendiendo Spring Boot y buenas prácticas de backend en Java
+- 🌱 Profundizando en Spring Boot y buenas prácticas de backend en Java
 - 🎯 Próximo objetivo: profundizar en despliegue cloud (AWS/Docker)
-- 💬 Pregúntame sobre React, Next.js o arquitectura frontend
+- 💬 Pregúntame sobre React, Next.js o arquitectura full-stack
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
 
