@@ -168,7 +168,7 @@ daniel.dev:
 <img src="https://github-profile-trophy.vercel.app/?username=DaniDJ-Hub&theme=algolia&no-frame=true&row=1&column=7&margin-w=8" />
 </div>
 
-- 🎟️ Pipeline de CI/CD completo (typecheck, lint, pruebas, build y publicación de imagen Docker) en **Sistema de Boletaje Zoológico La Trinitaria**.
+- 🎟️ Pipeline de CI/CD completo (typecheck, lint, pruebas, build y publicación de imagen Docker) en **Sistema de Boletaje de Zoológico**.
 - 🌐 Panel de administración con internacionalización completa español/inglés en **FORGE ATHLETICS**, sin tocar código.
 - 🧩 Aplicación consistente del patrón MVC en **ViajaYa**, con modelado relacional en MySQL y contenido 100% dinámico.
 - 🥇 Participación en Torneo Regional de Programación.
