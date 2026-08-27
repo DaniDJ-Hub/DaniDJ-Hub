@@ -304,7 +304,7 @@ Renderizado server-side con Pug, catálogo dinámico vía Sequelize/MySQL y estr
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
-| ⚽ **Fut 7 El Jaguar** | Gestión de liga deportiva: equipos, jugadores, jornadas y tabla de posiciones en tiempo real | `Next.js 15` `PostgreSQL` `Recharts` |
+| ⚽ **Fut 7 Soccer** | Gestión de liga deportiva: equipos, jugadores, jornadas y tabla de posiciones en tiempo real | `Next.js 15` `PostgreSQL` `Recharts` |
 | 🍕 **Sistema POS Pizzería** | Punto de venta con gestión de sucursales y sincronización de datos en tiempo real | `Next.js 15` `Firestore` `TypeScript` |
 | 💅 **NailStudio Glam** | Landing page comercial con arquitectura orientada a configuración e integración WhatsApp | `Next.js 16` `TypeScript` `Tailwind CSS` |
 | 📝 **App de Notas** | Aplicación CRUD full-stack de gestión de notas | `Spring Boot` `React` `H2` |
