@@ -328,43 +328,20 @@ Participación en Torneo Local de Programación
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
 
+
 ## 📈 GitHub Analytics
 
 <div align="center">
 
-<!-- GitHub Stats -->
-
-<img
-  height="180"
-  src="./profile/stats.svg"
-  alt="GitHub Statistics"
-/>
-
-<!-- GitHub Streak -->
-
-<img
-  height="180"
-  src="https://streak-stats.demolab.com/?user=DaniDJ-Hub&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=2563EB&currStreakLabel=60A5FA"
-  alt="GitHub Contribution Streak"
-/>
-
-</div>
+<img width="49%" height="160" src="./profile/stats.svg" alt="GitHub Statistics"/>
+<img width="49%" height="160" src="https://streak-stats.demolab.com/?user=DaniDJ-Hub&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=2563EB&currStreakLabel=60A5FA" alt="GitHub Contribution Streak"/>
 
 <br/>
 
-<div align="center">
-
-<!-- Top Languages -->
-
-<img
-  width="42%"
-  src="./profile/top-langs.svg"
-  alt="Most used programming languages"
-/>
+<img width="36%" src="./profile/top-langs.svg" alt="Most used programming languages"/>
 
 </div>
 
-<br/>
 
 <!-- 🐍 GitHub Contribution Snake -->
 
