@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:2563EB&height=220&section=header&text=Daniel%20Moreno%20López&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20y%20sistemas%20distribuidos%20·%20Full-Stack&descAlignY=58&descSize=18" />
 
 <!-- Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=60A5FA&center=true&vCenter=true&width=650&lines=Software+Engineer;Java+%2B+Spring+Boot+%2B+Kafka+%2B+AWS;Next.js+%2B+TypeScript;Arquitecturas+event-driven+y+distribuidas" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=60A5FA&center=true&vCenter=true&width=650&lines=Software+Engineer;Java+%2B+Spring+Boot+%2B+AWS;Next.js+%2B+TypeScript;Arquitecturas+event-driven+y+distribuidas" alt="Typing SVG" />
 
 <br/>
 
