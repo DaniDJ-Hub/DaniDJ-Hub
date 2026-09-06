@@ -333,28 +333,24 @@ Participación en Torneo Local de Programación
 <div align="center">
 
 <!-- GitHub Stats -->
+
 <img
   height="180"
-  src="https://github-readme-stats.vercel.app/api?username=DaniDJ-Hub&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&icon_color=60A5FA&text_color=FFFFFF"
+  src="./profile/stats.svg"
+  alt="GitHub Statistics"
 />
 
 <!-- GitHub Streak -->
+
 <img
   height="180"
   src="https://streak-stats.demolab.com/?user=DaniDJ-Hub&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=2563EB&currStreakLabel=60A5FA"
+  alt="GitHub Contribution Streak"
 />
 
 </div>
 
-<div align="center">
-
-<!-- Top Languages -->
-<img
-  width="42%"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDJ-Hub&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&text_color=FFFFFF&langs_count=8"
-/>
-
-</div>
+<br/>
 
 <div align="center">
 
@@ -362,7 +358,8 @@ Participación en Torneo Local de Programación
 
 <img
   width="42%"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDJ-Hub&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&text_color=FFFFFF&langs_count=8"
+  src="./profile/top-langs.svg"
+  alt="Most used programming languages"
 />
 
 </div>
@@ -374,6 +371,7 @@ Participación en Torneo Local de Programación
 <div align="center">
 
 <picture>
+
   <source
     media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/output/github-contribution-grid-snake-dark.svg"
