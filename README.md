@@ -193,7 +193,7 @@ Venta, generación y validación de boletos con lector de cámara, persistencia 
 </td>
 <td width="50%" valign="top">
 
-### ⚽ Fut 7 El Jaguar
+### ⚽ Fut 7 Soccer
 *Gestión de liga deportiva*
 
 Equipos, jugadores, jornadas, goles, penales y tabla de posiciones. Migración de una app multipágina en vanilla JS + Express a una sola aplicación Next.js: las API routes hablan directamente con Postgres, sin backend separado.
