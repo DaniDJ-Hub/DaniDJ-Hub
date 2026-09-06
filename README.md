@@ -1,181 +1,199 @@
-<h1 align="center">¡Hola! Soy Daniel Moreno López 👋</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/main/assets/hero-dark.svg">
+  <img alt="Daniel Moreno López — Software Engineer. Backend y sistemas distribuidos, full-stack. Java, Spring Boot, Kafka, AWS, Next.js, TypeScript." src="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/main/assets/hero-light.svg">
+</picture>
 
-<div align="center">
+Construyo sistemas backend orientados a eventos en Java y Spring Boot, y los productos
+web que los consumen en Next.js y TypeScript. Mi trabajo más reciente son plataformas
+distribuidas con Kafka, arquitectura hexagonal e infraestructura como código.
 
-<!-- Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:2563EB&height=220&section=header&text=Daniel%20Moreno%20López&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20·%20React%20·%20Next.js%20·%20TypeScript&descAlignY=58&descSize=18" />
+Ingeniería en Sistemas Computacionales — TecNM, Campus Comitán · Chiapas, México · Español (nativo) / Inglés (B2)
 
-<!-- Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=60A5FA&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;React+%2B+Next.js+%2B+TypeScript;Autor+de+8+aplicaciones+web+completas;Arquitecturas+escalables+y+seguras" alt="Typing SVG" />
+[Portfolio](https://my-portafolio-fawn.vercel.app) · [LinkedIn](https://linkedin.com/in/daniel-de-jes%C3%BAs-moreno-l%C3%B3pez-889a15303) · [Email](mailto:danielmoreno123g@gmail.com)
 
-<br/>
+---
 
-<!-- CTA badges -->
-<a href="https://my-portafolio-fawn.vercel.app"><img src="https://img.shields.io/badge/🌐_Portfolio-2563EB?style=for-the-badge&logoColor=white"></a>
-<a href="https://linkedin.com/in/daniel-de-jesús-moreno-lópez-889a15303"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="mailto:danielmoreno123g@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+## Sistemas distribuidos y backend
 
-<br/><br/>
+Cuatro plataformas construidas para practicar patrones reales de sistemas distribuidos,
+no ejercicios de curso.
 
-<img src="https://komarev.com/ghpvc/?username=DaniDJ-Hub&label=Visitas+al+perfil&color=2563EB&style=flat-square" alt="visitor badge"/>
+### [NEXUS Financial Platform](https://github.com/DaniDJ-Hub/Nexus)
 
-</div>
+Plataforma fintech de banca digital que cubre el ciclo completo: identidad del cliente,
+verificación KYC, apertura de cuentas, transferencias, contabilidad de partida doble,
+detección de fraude, scoring de riesgo y pista de auditoría inmutable.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
+**El problema.** Un núcleo bancario no puede acoplar el registro de clientes con el
+motor de pagos ni con la detección de fraude: cada dominio cambia a su propio ritmo y
+falla de forma independiente.
 
-<!-- ════════════════════ SOBRE MÍ ════════════════════ -->
+**Las decisiones.** 17 servicios (16 Spring Boot + 1 Quarkus en modo nativo) coordinados
+por Kafka, con persistencia poliglota — PostgreSQL para lo transaccional, MongoDB para
+documentos, Elasticsearch para búsqueda y Redis para caché — y capacidades de IA
+integradas vía OpenAI, Ollama y pgvector.
 
-## 🚀 Sobre mí
+`Java 25` `Spring Boot` `Quarkus` `Kafka` `PostgreSQL` `MongoDB` `Elasticsearch` `Redis` `pgvector`
 
-<table>
-<tr>
-<td width="60%" valign="top">
+<!-- PENDIENTE: confirmar estado (terminado / en curso) antes de publicar. -->
 
-Desarrollador **Full-Stack Junior** especializado en **React** y **Next.js**, con base sólida en **TypeScript**, **Tailwind CSS** y **Supabase/PostgreSQL**.
+---
 
-Autor de **8 aplicaciones web completas** desarrolladas de forma independiente, incluyendo un sistema de inventario y punto de venta con esquema relacional de **14 entidades**, un sistema de boletaje con generación de códigos QR y pipeline de CI/CD completo, y una landing page premium con panel de administración e internacionalización en Django.
+### [TradeFlow](https://github.com/DaniDJ-Hub/Tradeflow)
 
-- 🎓 Ingeniería en Sistemas Computacionales — TecNM, Campus Comitán (2022–2027)
-- 🧠 Foco en arquitecturas escalables, seguras y mantenibles
-- 🌱 Ampliando conocimientos en backend (Java/Spring Boot, Node/Express)
-- 📍 Comitán de Domínguez, Chiapas, México
-- 🗣️ Español (nativo) · Inglés (B2)
+Marketplace distribuido tipo Amazon/MercadoLibre: alta de compradores y vendedores con
+KYC, publicación de productos, búsqueda, órdenes y cobro coordinados de forma asíncrona.
 
-</td>
-<td width="40%" valign="top" align="center">
+**El problema.** Una orden toca inventario, fraude y pagos a la vez. Si cualquiera de los
+tres falla a mitad del proceso, el sistema tiene que deshacer lo ya hecho sin transacciones
+distribuidas.
 
-```yaml
-daniel.dev:
-  role: "Full-Stack Developer"
-  stack: [React, Next.js, TypeScript, Spring Boot]
-  status: "Ampliando backend avanzado"
-  soft_skills:
-    - Trabajo en equipo
-    - Resolución de problemas
-    - Adaptabilidad
-```
+**Las decisiones.** SAGA orquestada desde el Order Service con compensaciones explícitas,
+más CQRS, Event Sourcing y patrón Outbox sobre Kafka. Búsqueda en Elasticsearch y
+observabilidad completa del flujo.
 
-</td>
-</tr>
-</table>
+`Java 21` `Spring Boot` `Kafka` `SAGA` `CQRS` `Event Sourcing` `Outbox` `Elasticsearch`
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/main/assets/architecture-dark.svg">
+  <img alt="Diagrama del flujo de una orden en TradeFlow: el API Gateway llega al Order Service, que orquesta una SAGA sobre Kafka coordinando los servicios de inventario, fraude y pago, con PostgreSQL por servicio, patrón Outbox y Elasticsearch para búsqueda." src="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/main/assets/architecture-light.svg">
+</picture>
 
-<!-- ════════════════════ STACK ════════════════════ -->
+<!-- PENDIENTE: confirmar estado antes de publicar. -->
 
-## 💻 Stack Tecnológico
+---
 
-<table width="100%">
-<tr>
-<td valign="top" width="50%">
+### [NeoBank](https://github.com/DaniDJ-Hub/NeoBank)
 
-**Frontend**
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square&logo=shadcnui&logoColor=white"/>
-<img src="https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white"/>
-</p>
+Plataforma bancaria con arquitectura hexagonal y un núcleo transaccional serverless
+desplegado en AWS, con toda la infraestructura versionada.
 
-**Backend**
-<p>
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
-</p>
+**El problema.** Separar la lógica de negocio de la infraestructura lo suficiente como
+para que el mismo dominio corra tras una API REST en contenedor o tras funciones Lambda.
 
-**Bases de datos**
-<p>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
-</p>
+**Las decisiones.** Núcleo en Spring Boot 3 / Java 21 con puertos y adaptadores,
+8 funciones Lambda (7 en Java 17, 1 en Python 3.11), frontend Next.js 15 / React 19, e
+infraestructura completa en Terraform: VPC, RDS, EC2, S3, DynamoDB, SNS, SQS, Cognito y
+API Gateway. Incluye pruebas de carga con JMeter.
 
-</td>
-<td valign="top" width="50%">
+`Java 21` `Spring Boot 3` `Arquitectura hexagonal` `AWS Lambda` `Terraform` `Next.js 15` `JMeter`
 
-**Seguridad y validación**
-<p>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/bcrypt-4A4A4A?style=flat-square"/>
-<img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
-<img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white"/>
-</p>
+<!-- PENDIENTE: confirmar estado antes de publicar. -->
 
-**Control de versiones y despliegue**
-<p>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
-</p>
+---
 
-**IDEs y herramientas**
-<p>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
-</p>
+### [Twitter Stream Analytics](https://github.com/DaniDJ-Hub/Twitter-Microservicios)
 
-**Sistema operativo**
-<p>
-<img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
-</p>
+Analítica de streams en tiempo real: ingesta desde la API de streaming de Twitter,
+procesamiento y reparto hacia dos consumidores independientes.
 
-</td>
-</tr>
-</table>
+**El problema.** Un stream continuo tiene que alimentar a la vez búsqueda full-text y
+analítica agregada, sin que un consumidor lento frene al otro ni al productor.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
+**Las decisiones.** Publicación en Kafka con Avro y Schema Registry, procesamiento con
+Kafka Streams, y dos consumidores desacoplados: uno indexa en Elasticsearch, otro persiste
+agregados en PostgreSQL y los expone en una API REST protegida con JWT vía Keycloak. Todo
+el stack levanta con Docker Compose.
 
-<!-- ════════════════════ ANALYTICS ════════════════════ -->
+`Java` `Spring Boot` `Kafka Streams` `Avro` `Schema Registry` `Elasticsearch` `PostgreSQL` `Keycloak` `Docker Compose`
 
-## 📈 GitHub Analytics
+<!-- PENDIENTE: confirmar estado antes de publicar. -->
 
-<div align="center">
+---
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DaniDJ-Hub&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&icon_color=60A5FA" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=DaniDJ-Hub&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=2563EB" />
+## Producto y full-stack
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDJ-Hub&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=DaniDJ-Hub&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=60A5FA&line=2563EB&point=ffffff" />
+Aplicaciones completas, varias de ellas en uso real por negocios locales.
 
-</div>
+### [PaperFlow](https://github.com/DaniDJ-Hub/Inventory-System_MJ)
 
-<!-- Contribution Snake — requiere GitHub Action, ver instrucciones al final -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/output/github-contribution-grid-snake.svg" alt="snake animation" />
-</div>
+Sistema de inventario, punto de venta y gestión para papelerías. Lecturas paginadas desde
+Server Components y mutaciones desde Client Components contra Supabase, con Row Level
+Security como capa de autorización en vez de una API REST intermedia.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
+`Next.js 16` `React 19` `Tailwind v4` `Supabase` `PostgreSQL + RLS` `Zod` `Vitest`
 
-<!-- ════════════════════ LOGROS ════════════════════ -->
+<!-- PENDIENTE: el README anterior afirmaba "esquema relacional de 14 entidades".
+     No pude verificarlo en el repo. Confírmalo y lo añado, o lo dejamos fuera. -->
 
-## 🏆 Logros y Certificaciones
+---
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=DaniDJ-Hub&theme=algolia&no-frame=true&row=1&column=7&margin-w=8" />
-</div>
+### [Zoológico La Trinitaria](https://github.com/DaniDJ-Hub/Zool-gico_Project)
 
-- 🎟️ Pipeline de CI/CD completo (typecheck, lint, pruebas, build y publicación de imagen Docker) en **Sistema de Boletaje de Zoológico**.
-- 🌐 Panel de administración con internacionalización completa español/inglés en **FORGE ATHLETICS**, sin tocar código.
-- 🧩 Aplicación consistente del patrón MVC en **ViajaYa**, con modelado relacional en MySQL y contenido 100% dinámico.
-- 🥇 Participación en Torneo Regional de Programación.
+Sistema de boletaje con códigos QR: venta, generación y validación de boletos con lector
+por cámara. Es el proyecto donde más trabajé la parte de calidad y entrega: pruebas
+unitarias con Vitest, pruebas de carga con JMeter, colección Postman y un pipeline de
+GitHub Actions que ejecuta typecheck, lint, pruebas, build y publicación de imagen Docker.
+
+`Next.js 15` `TypeScript` `Docker` `GitHub Actions` `Vitest` `JMeter`
+
+<!-- PENDIENTE FASE 0: el repo tiene todo dentro de zoo-nextjs/. Los workflows no se
+     ejecutan porque GitHub solo lee .github/workflows/ desde la raíz. Subir a raíz. -->
+<!-- PENDIENTE: confirmar la fuente de datos real (el README anterior decía SQLite, el
+     repo contiene configuración de Firestore). No la menciono hasta confirmarlo. -->
+
+---
+
+### [Fut 7 El Jaguar](https://github.com/DaniDJ-Hub/Soccer_Match_System)
+
+Gestión de liga deportiva: equipos, jugadores, jornadas, goles, penales y tabla de
+posiciones. Migración completa de una app multipágina en vanilla JS + Express a una sola
+aplicación Next.js, eliminando el backend separado: las API routes hablan directamente
+con Postgres. Modo claro/oscuro con toda la paleta en variables CSS.
+
+`Next.js 15` `React 19` `Tailwind v4` `PostgreSQL (Neon)`
+
+---
+
+### Otros proyectos
+
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| [PizzaManía POS](https://github.com/DaniDJ-Hub/Pizzeria-Sistem-Pos) | Punto de venta multi-sucursal con roles (admin, cajero, cocina, mesero) | `Next.js 15` `React 19` `Firebase` |
+| [Tortillería POS](https://github.com/DaniDJ-Hub/Tortilleria_System_POS) | POS de una sola pantalla; migración que eliminó la dependencia de Firebase | `Next.js 15` `React 19` `Tailwind v4` |
+| [VetCare Manager](https://github.com/DaniDJ-Hub/VetCare_Manager_Public) | Gestión de pacientes veterinarios con aislamiento de datos por veterinario | `MERN` `JWT` `bcrypt` `MVC` |
+| [ViajaYa](https://github.com/DaniDJ-Hub/Agencia-Viajes-Public) | Agencia de viajes con renderizado server-side y catálogo dinámico | `Node.js` `Express` `Pug` `Sequelize` `MySQL` |
+| [NailStudio Glam](https://github.com/DaniDJ-Hub/Nail_Services_Page) | Landing comercial orientada a configuración, con integración WhatsApp | `Next.js` `TypeScript` `Tailwind` |
+| [App de Notas](https://github.com/DaniDJ-Hub/App_Notas_Public) | CRUD full-stack con API en Spring Boot y frontend en React | `Spring Boot` `React` `Vite` |
+| [Spring Boot Quest](https://github.com/DaniDJ-Hub/Spring-Boot-Quest) | Juego educativo para aprender Spring Boot: retos, debugging con stack traces reales y decisiones de arquitectura | `React` `TypeScript` `Vite` `Tailwind` |
+
+<!-- PENDIENTE FASE 0: FORGE ATHLETICS no tiene repositorio público. Si lo publicas,
+     se añade aquí; si no, se queda fuera. -->
+
+---
+
+## Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/main/assets/stack-dark.svg">
+  <img alt="Stack por categoría. Backend: Java, Spring Boot 3, Quarkus, Node.js, Express, Django. Frontend: TypeScript, React 19, Next.js 15/16, Tailwind CSS, shadcn/ui. Datos: PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, Supabase. Eventos: Kafka, Kafka Streams, Avro, Schema Registry. Infraestructura: Docker, Terraform, AWS, GitHub Actions, Vercel. Calidad y seguridad: Vitest, JMeter, Postman, Keycloak, JWT, Zod." src="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/main/assets/stack-light.svg">
+</picture>
 
 <details>
-<summary><b>📜 Ver certificaciones</b></summary>
-<br/>
+<summary>Patrones y arquitectura aplicados</summary>
+
+Microservicios · Arquitectura hexagonal (puertos y adaptadores) · Event-driven ·
+SAGA orquestada con compensaciones · CQRS · Event Sourcing · Patrón Outbox ·
+MVC · REST · Server Components / Route Handlers
+
+</details>
+
+
+---
+
+## Actualmente
+
+**Construyendo** — <!-- PENDIENTE: nombre del proyecto activo, objetivo en una línea y estado. -->
+
+**Aprendiendo** — Spring Framework 6 y Spring Boot 3 a fondo; el temario está reconstruido
+como juego en [Spring Boot Quest](https://github.com/DaniDJ-Hub/Spring-Boot-Quest).
+Siguiente foco: despliegue en la nube y diseño de sistemas.
+
+<details>
+<summary>Formación y certificaciones</summary>
+
+Ingeniería en Sistemas Computacionales — TecNM, Campus Comitán (2022–2027)
+Participación en Torneo Regional de Programación
 
 | Curso | Plataforma | Año |
 |---|---|---|
@@ -186,165 +204,12 @@ daniel.dev:
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
+---
 
-<!-- ════════════════════ PROYECTOS ════════════════════ -->
+## Contacto
 
-## 📂 Proyectos Destacados
+**Portfolio** — [my-portafolio-fawn.vercel.app](https://my-portafolio-fawn.vercel.app)
+**LinkedIn** — [Daniel de Jesús Moreno López](https://linkedin.com/in/daniel-de-jes%C3%BAs-moreno-l%C3%B3pez-889a15303)
+**Email** — [danielmoreno123g@gmail.com](mailto:danielmoreno123g@gmail.com)
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<h3>📦 PaperFlow</h3>
-<i>Sistema Integral de Inventario y Punto de Venta</i><br/><br/>
-
-Esquema relacional PostgreSQL de 14 entidades, autenticación con Supabase Auth (cookies HttpOnly), rutas protegidas por Middleware y dashboard analítico con KPIs.
-
-<p>
-<img src="https://img.shields.io/badge/Next.js_16-black?style=flat-square&logo=next.js"/>
-<img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase"/>
-</p>
-
-`Estado: ✅ Completado`
-
-<a href="https://github.com/DaniDJ-Hub/paperflow"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-
-</td>
-<td width="50%" valign="top">
-<h3>🦁 Zoológico La Trinitaria</h3>
-<i>Sistema de Boletaje con Códigos QR</i><br/><br/>
-
-Venta y validación de boletos con QR, lector por cámara, persistencia en SQLite, autenticación por cookies HMAC, y pipeline de CI/CD con GitHub Actions + Docker.
-
-<p>
-<img src="https://img.shields.io/badge/Next.js_15-black?style=flat-square&logo=next.js"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript"/>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker"/>
-</p>
-
-`Estado: ✅ Completado`
-
-<a href="https://github.com/DaniDJ-Hub/Zool-gico_Project"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3>🏋️ FORGE ATHLETICS</h3>
-<i>Landing Page Premium con Panel de Administración</i><br/><br/>
-
-Modelo de datos relacional en Django ORM con 9 entidades, panel admin personalizado con django-unfold, internacionalización español/inglés y animaciones GSAP/AOS.
-
-<p>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss"/>
-<img src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=flat-square&logo=alpinedotjs&logoColor=black"/>
-</p>
-
-`Estado: ✅ Completado`
-
-<a href="https://github.com/DaniDJ-Hub/forge-athletics"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-
-</td>
-<td width="50%" valign="top">
-<h3>🐾 VetCare Manager</h3>
-<i>Plataforma de Gestión de Pacientes Veterinarios</i><br/><br/>
-
-Stack MERN con arquitectura MVC, autenticación JWT + bcrypt y autorización a nivel de recurso que aísla los datos entre distintos veterinarios usuarios.
-
-<p>
-<img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb"/>
-</p>
-
-`Estado: ✅ Completado`
-
-<a href="https://github.com/DaniDJ-Hub/vetcare-manager"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3>✈️ ViajaYa</h3>
-<i>Plataforma Web de Agencia de Viajes — MVC</i><br/><br/>
-
-Renderizado server-side con Pug, catálogo dinámico vía Sequelize/MySQL y estructura de vistas modular con herencia de layouts.
-
-<p>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js"/>
-<img src="https://img.shields.io/badge/Sequelize-52B0E7?style=flat-square&logo=sequelize&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql"/>
-</p>
-
-`Estado: ✅ Completado`
-
-<a href="https://github.com/DaniDJ-Hub/viajaya"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-
-</td>
-<td width="50%" valign="top">
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-<i>🌐 Portafolio personal — <a href="https://my-portafolio-fawn.vercel.app">my-portafolio-fawn.vercel.app</a></i>
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
-
-<!-- ════════════════════ FREELANCE ════════════════════ -->
-
-## 💼 Proyectos Freelance
-
-<div align="center">
-
-| Proyecto | Descripción | Stack |
-|---|---|---|
-| ⚽ **Fut 7 Soccer** | Gestión de liga deportiva: equipos, jugadores, jornadas y tabla de posiciones en tiempo real | `Next.js 15` `PostgreSQL` `Recharts` |
-| 🍕 **Sistema POS Pizzería** | Punto de venta con gestión de sucursales y sincronización de datos en tiempo real | `Next.js 15` `Firestore` `TypeScript` |
-| 💅 **NailStudio Glam** | Landing page comercial con arquitectura orientada a configuración e integración WhatsApp | `Next.js 16` `TypeScript` `Tailwind CSS` |
-| 📝 **App de Notas** | Aplicación CRUD full-stack de gestión de notas | `Spring Boot` `React` `H2` |
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
-
-<!-- ════════════════════ ROADMAP ════════════════════ -->
-
-## 📊 Roadmap de Aprendizaje
-
-```
-Frontend Sólido      ████████████████████ 100%
-Next.js Avanzado     ███████████████░░░░░  75%
-Backend (Java/Spring)███████████░░░░░░░░░  55%
-Node.js / Express    ██████████░░░░░░░░░░  50%
-DevOps / Cloud       ██████░░░░░░░░░░░░░░  30%
-```
-
-## 🎯 Actualmente
-
-- 🔭 Desarrollando nuevos proyectos full-stack con foco en arquitectura escalable
-- 🌱 Profundizando en Spring Boot y buenas prácticas de backend en Java
-- 🎯 Próximo objetivo: profundizar en despliegue cloud (AWS/Docker)
-- 💬 Pregúntame sobre React, Next.js o arquitectura full-stack
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:0F172A&height=3&width=100%25" />
-
-<!-- ════════════════════ CONTACTO ════════════════════ -->
-
-## 📫 Contacto
-
-<div align="center">
-
-<a href="https://linkedin.com/in/daniel-de-jesús-moreno-lópez-889a15303"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/DaniDJ-Hub"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="mailto:danielmoreno123g@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://my-portafolio-fawn.vercel.app"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:2563EB&height=120&section=footer" />
+<img src="https://github-readme-stats.vercel.app/api?username=DaniDJ-Hub&show_icons=true&hide_border=true&theme=transparent&hide_title=true" alt="Estadísticas de contribución de DaniDJ-Hub en GitHub" height="150" />
