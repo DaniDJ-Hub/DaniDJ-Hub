@@ -78,27 +78,6 @@ Una orden toca inventario, fraude y pagos a la vez. **SAGA orquestada** con comp
 <tr>
 <td width="50%" valign="top">
 
-### ☁️ NeoBank
-*Plataforma bancaria hexagonal en AWS*
-
-El mismo dominio corre tras una API REST en contenedor o tras funciones Lambda, gracias a puertos y adaptadores.
-
-Núcleo en Spring Boot 3, **8 funciones Lambda** (7 Java 17 + 1 Python 3.11), frontend Next.js 15 e infraestructura completa en Terraform: VPC, RDS, EC2, S3, DynamoDB, SNS, SQS, Cognito y API Gateway.
-
-<p>
-<img src="https://img.shields.io/badge/Java_21-007396?style=flat-square&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white"/>
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white"/>
-<img src="https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/JMeter-D22128?style=flat-square&logo=apachejmeter&logoColor=white"/>
-</p>
-
-<a href="https://github.com/DaniDJ-Hub/NeoBank"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-
-</td>
-<td width="50%" valign="top">
-
 ### 📡 Twitter Stream Analytics
 *Analítica de streams en tiempo real*
 
