@@ -30,7 +30,7 @@ Construyo sistemas backend orientados a eventos en **Java** y **Spring Boot**, y
 
 - 🎓 Ingeniería en Sistemas Computacionales — TecNM, Campus Comitán (2022–2026)
 - ⚙️ Foco en sistemas distribuidos, mensajería asíncrona y calidad de entrega
-- 📍 Comitán de Domínguez, Chiapas, México
+- 📍 Chiapas, México
 - 🗣️ Español (nativo) · Inglés (B2)
 
 </td>
