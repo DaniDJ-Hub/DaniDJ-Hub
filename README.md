@@ -28,7 +28,7 @@
 
 Construyo sistemas backend orientados a eventos en **Java** y **Spring Boot**, y los productos web que los consumen en **Next.js** y **TypeScript**. Mi trabajo más reciente son plataformas distribuidas con Kafka, arquitectura hexagonal e infraestructura como código.
 
-- 🎓 Ingeniería en Sistemas Computacionales — TecNM, Campus Comitán (2022–2027)
+- 🎓 Ingeniería en Sistemas Computacionales — TecNM, Campus Comitán (2022–2026)
 - ⚙️ Foco en sistemas distribuidos, mensajería asíncrona y calidad de entrega
 - 📍 Comitán de Domínguez, Chiapas, México
 - 🗣️ Español (nativo) · Inglés (B2)
@@ -52,57 +52,11 @@ daniel.dev:
 
 ## 🛰️ Sistemas distribuidos y backend
 
-Cuatro plataformas construidas para practicar patrones reales de sistemas distribuidos.
+Dos plataformas construidas para practicar patrones reales de sistemas distribuidos.
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-
-### 🏦 NEXUS Financial Platform
-*Plataforma fintech de banca digital*
-
-Cubre el ciclo completo: identidad del cliente, KYC, apertura de cuentas, transferencias, contabilidad de partida doble, detección de fraude, scoring de riesgo y auditoría inmutable.
-
-**17 servicios** — 16 Spring Boot + 1 Quarkus nativo — coordinados por Kafka, con persistencia poliglota e IA integrada vía OpenAI, Ollama y pgvector.
-
-<p>
-<img src="https://img.shields.io/badge/Java_25-007396?style=flat-square&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Quarkus-4695EB?style=flat-square&logo=quarkus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-</p>
-
-`Estado: ✅ Completado`
-
-<a href="https://github.com/DaniDJ-Hub/Nexus"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🛒 TradeFlow
-*Marketplace distribuido*
-
-Compradores y vendedores con KYC, publicación de productos, búsqueda, órdenes y cobro coordinados de forma asíncrona.
-
-Una orden toca inventario, fraude y pagos a la vez. **SAGA orquestada** con compensaciones explícitas resuelve el fallo parcial sin transacciones distribuidas, sobre CQRS, Event Sourcing y patrón Outbox.
-
-<p>
-<img src="https://img.shields.io/badge/Java_21-007396?style=flat-square&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/SAGA-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/CQRS-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/Event_Sourcing-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white"/>
-</p>
-
-`Estado: ✅ Completado`
-
-<a href="https://github.com/DaniDJ-Hub/Tradeflow"><img src="https://img.shields.io/badge/Código-181717?style=flat-square&logo=github&logoColor=white"/></a>
 
 </td>
 </tr>
@@ -276,7 +230,7 @@ Retos de código, debugging con stack traces reales, decisiones de arquitectura 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/main/assets/stack-dark.svg">
-  <img width="100%" alt="Stack por categoría. Backend: Java, Spring Boot 3, Quarkus, Node.js, Express, Django. Frontend: TypeScript, React 19, Next.js 15/16, Tailwind CSS, shadcn/ui. Datos: PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, Supabase. Eventos: Kafka, Kafka Streams, Avro, Schema Registry. Infraestructura: Docker, Terraform, AWS, GitHub Actions, Vercel. Calidad y seguridad: Vitest, JMeter, Postman, Keycloak, JWT, Zod." src="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/main/assets/stack-light.svg">
+  <img width="100%" alt="Stack por categoría. Backend: Java, Spring Boot 3, Node.js, Express, Django. Frontend: TypeScript, React 19, Next.js 15/16, Tailwind CSS, shadcn/ui. Datos: PostgreSQL, MySQL, MongoDB, Redis, Supabase. Eventos: Kafka, Kafka Streams, Schema Registry. Infraestructura: Docker, AWS, GitHub Actions, Vercel. Calidad y seguridad: Vitest, JMeter, Postman, JWT." src="https://raw.githubusercontent.com/DaniDJ-Hub/DaniDJ-Hub/main/assets/stack-light.svg">
 </picture>
 
 </div>
