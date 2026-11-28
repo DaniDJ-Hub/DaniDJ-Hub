@@ -277,6 +277,7 @@ Participación en Torneo Local de Programación
 | JavaScript | Udemy | 2024 |
 | Tailwind CSS | Udemy | 2025 |
 | React.js | Udemy | 2025 |
+| ciberseguridad | Cisco | 2025 |
 
 </details>
 
